@@ -51,6 +51,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="MCTest.cs" />
     <Compile Include="BilTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
