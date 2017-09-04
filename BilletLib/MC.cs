@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace BilletLib
 {
-	public class MC
+	public class MC : Køretøjer
 	{
 		public int Nummerplade { get; set; }
 		public DateTime Dato { get; set; }
 
-		public int Pris()
+		public override int Pris()
 		{
 			return 125;
 		}

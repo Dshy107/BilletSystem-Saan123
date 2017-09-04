@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace BilletLib
 {
-    public class Bil
+    public class Bil : Køretøjer
     {
 		public string Nummerplade { get; set; }
 		public DateTime Dato { get; set; }
 
-		public int Pris()
+		public override int Pris()
 		{
 			return 240;
 		}
@@ -20,5 +20,6 @@ namespace BilletLib
 		{
 			return "bil";
 		}
-    }
+
+	}
 }
