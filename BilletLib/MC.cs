@@ -8,6 +8,9 @@ namespace BilletLib
 {
 	public class MC : Køretøjer
 	{
+        /// <summary>
+        /// Det samme som i Bil klassen
+        /// </summary>
 		public int Nummerplade { get; set; }
 		public DateTime Dato { get; set; }
 

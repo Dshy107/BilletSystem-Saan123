@@ -8,6 +8,9 @@ namespace BilletLib
 {
     public class Bil : Køretøjer
     {
+        /// <summary>
+        /// For at tilpasse Bil klassen til base klassen, skal Nummerplade og Dato væk, da de skal være i base klassen.
+        /// </summary>
 		public string Nummerplade { get; set; }
 		public DateTime Dato { get; set; }
 
